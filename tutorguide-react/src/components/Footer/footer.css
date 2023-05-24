@@ -1,0 +1,29 @@
+footer {
+    background: var(--dark-grey);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
+}
+
+footer a {
+    color: white;
+}
+
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 4rem;
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================== */
+@media screen and (max-width: 600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

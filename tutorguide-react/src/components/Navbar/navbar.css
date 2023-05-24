@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    width: 100%;
+    background: rgb(246, 246, 246);
+    overflow: hidden;
+    z-index: 2;
+}
+
+nav img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation li {
+    margin-left: 30px;
+
+}
+
+.navigation a, li {
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    color: orange;
+}
+
+.navigation li:hover {
+    color: orange;
+}
